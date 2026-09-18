@@ -1,6 +1,6 @@
 # main.py
-from src.gestion_datos import cargar_citas, guardar_citas
 from src.cita import CitaMedica
+from src.gestion_datos import cargar_citas, guardar_citas
 
 RUTA_DATOS = "data/citas.json"
 

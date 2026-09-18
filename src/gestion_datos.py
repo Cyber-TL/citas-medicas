@@ -19,6 +19,6 @@ def guardar_citas(ruta_archivo: str, datos: list) -> bool:
         with open(ruta_archivo, "w", encoding="utf-8") as archivo:
             json.dump(datos, archivo, ensure_ascii=False, indent=4)
         return True
-    except Exception as error:
+    except (OSError, TypeError) as error:
         print(f"Error al guardar los datos: {error}")
         return False
