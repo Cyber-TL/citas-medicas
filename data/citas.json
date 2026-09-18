@@ -1,0 +1,20 @@
+[
+    {
+        "id_cita": "CIT-2026-01",
+        "paciente": "Thomas",
+        "especialidad": "Medicina Genenral",
+        "medico_asignado": "Carlos",
+        "costo_consulta": 20000.0,
+        "es_urgencia": false,
+        "costo_final": 17000.0
+    },
+    {
+        "id_cita": "CIT-2026-02",
+        "paciente": "Miguel",
+        "especialidad": "Pediatría",
+        "medico_asignado": "Manuel",
+        "costo_consulta": 30000.0,
+        "es_urgencia": true,
+        "costo_final": 30000.0
+    }
+]
